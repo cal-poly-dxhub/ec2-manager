@@ -1,0 +1,20 @@
+{
+    "region": "us-west-2",
+    "userPool": "us-west-2_OnvNT3PLe",
+    "userPoolBaseUri": "https://login.calpoly.io",
+    "clientId": "4socdeos4ckvcav3t0p0j3p006",
+    "callbackUri": "http://localhost:3000/callback",
+    "signoutUri": "http://localhost:3000/signout",
+    "tokenScopes": [
+        "openid",
+        "email",
+        "profile"                
+    ],
+    "apiUri": "https://dzlcmr90dj.execute-api.us-west-2.amazonaws.com/beta/retrieve/rewards",
+    "keyUri": "https://mos0yandy5.execute-api.us-west-2.amazonaws.com/prod/get-key",
+    "baseUri": "https://mos0yandy5.execute-api.us-west-2.amazonaws.com/prod/",
+    "stopUri": "https://mos0yandy5.execute-api.us-west-2.amazonaws.com/prod/stop",
+    "juvUri": "https://dzlcmr90dj.execute-api.us-west-2.amazonaws.com/beta/points/incr",
+    "startUri": "https://mos0yandy5.execute-api.us-west-2.amazonaws.com/prod/start",
+    "terminateUri": "https://mos0yandy5.execute-api.us-west-2.amazonaws.com/prod/terminate"
+}

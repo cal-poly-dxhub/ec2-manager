@@ -1,0 +1,53 @@
+.Signout {
+  text-align: center;
+}
+
+.Signout-logo {
+  width: 50%;
+  pointer-events: none;
+}
+
+.Signout-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Signout-link {
+  color: #154734;
+}
+
+.Signout-api-response {
+  margin-top: 10px;
+  width: 50%;
+  background-color: white;
+  display: inline-block;
+  font-family: 'Lucida Console', monospace
+}
+
+@keyframes Signout-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Signout-details {
+  margin-top: 2em;
+  font-size: 14px;
+  max-width: 50%;
+}
+.Signout-details a {
+  color: #61dafb;
+}
+.Signout-details-links {
+  text-align: left;
+  display: inline-block;
+}
