@@ -3,3 +3,5 @@ This React based application uses Cognito, API Gateway and a Lambda function to 
 
 # webapp
 This folder contains the React App used by students.  
+
+**npm install** to pull in packages needed by the web app
