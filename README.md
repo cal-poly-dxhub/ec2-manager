@@ -5,3 +5,8 @@ This React based application uses Cognito, API Gateway and a Lambda function to 
 This folder contains the React App used by students.  
 
 **npm install** to pull in packages needed by the web app
+
+**npm run**
+
+# infra
+This folder contains the lambda funtion that accompanies the React App.
